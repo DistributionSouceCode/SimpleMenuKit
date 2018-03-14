@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       window = UIWindow(frame: UIScreen.main.bounds)
       window?.makeKeyAndVisible()
       
-      let menuSide = LeftTableViewController()
+      let menuSide = LeftViewController()
       let home = ViewController()
       
       let mainViewController = MKWrapperViewController({

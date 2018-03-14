@@ -16,19 +16,30 @@ class ViewController: UIViewController, MKHomeViewControllerDelegate {
    override func viewDidLoad() {
       super.viewDidLoad()
       
-      view.backgroundColor = .red
-      
+      view.backgroundColor = .white
+
      setupMenuButton()
       
    }
    
 
    fileprivate func setupMenuButton() {
-      let button = UIButton(frame: CGRect(x: self.view.frame.width - 200, y: 100, width: 200, height: 200))
-      button.setTitle("Menu", for: .normal)
-      button.addTarget(self, action: #selector(self.presentSideMenu), for: .touchUpInside)
+      let menuButton = UIButton()
+      menuButton.setImage(UIImage(named: "menu"), for: .normal)
+      menuButton.tintColor = .black
+      menuButton.addTarget(self, action: #selector(self.presentSideMenu), for: .touchUpInside)
+      menuButton.backgroundColor = .gray
+      view.addSubview(menuButton)
       
-      view.addSubview(button)
+      setupConstraint(with: menuButton)
+   }
+   
+   fileprivate func setupConstraint(with menuButton : UIButton) {
+      menuButton.translatesAutoresizingMaskIntoConstraints = false
+      menuButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 40).isActive = true
+      menuButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 30).isActive = true
+      menuButton.widthAnchor.constraint(equalToConstant: 40).isActive = true
+      menuButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
    }
    
    @objc private func presentSideMenu() {

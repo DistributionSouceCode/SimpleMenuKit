@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07251D122058FE3000853759 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07251D112058FE3000853759 /* LeftTableViewController.swift */; };
+		07251D122058FE3000853759 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07251D112058FE3000853759 /* LeftViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		05075463AE160BBFB4CF693C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		07251D112058FE3000853759 /* LeftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
+		07251D112058FE3000853759 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		114740EAF8285E37E3F1E9F2 /* Pods_SimpleMenuKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMenuKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BC2F2C7C4F2AD2A40DB161 /* Pods_SimpleMenuKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMenuKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E17DCCE99739345ED7209E /* SimpleMenuKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleMenuKit.podspec; path = ../SimpleMenuKit.podspec; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				07251D112058FE3000853759 /* LeftTableViewController.swift */,
+				07251D112058FE3000853759 /* LeftViewController.swift */,
 			);
 			name = "Example for SimpleMenuKit";
 			path = SimpleMenuKit;
@@ -370,7 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				07251D122058FE3000853759 /* LeftTableViewController.swift in Sources */,
+				07251D122058FE3000853759 /* LeftViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
