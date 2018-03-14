@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"SimpleMenuKit is a CocoaPod that is easy for user build slide menu programmatically. It build from simple idea with simeple code and associate with simple developer programmatically. I am very happy to get comment from you, don't be hesitate. We are developer we learn together and we grow up together."
                        DESC
 
-  s.homepage         = 'https://github.com/seyhagithub/SimpleMenuKit'
+  s.homepage         = 'https://github.com/DistributionSouceCode/SimpleMenuKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'seyhagithub' => 'hiemseyha168@gmail.com' }
-  s.source           = { :git => 'https://github.com/seyhagithub/SimpleMenuKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DistributionSouceCode/SimpleMenuKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -8,9 +8,9 @@
 
 import UIKit
 
-class LeftViewController: UIViewController {
+ class LeftViewController: UIViewController {
 
-    override func viewDidLoad() {
+   override func viewDidLoad() {
         super.viewDidLoad()
       
       setupBackgroundImage()
