@@ -11,7 +11,7 @@ import SimpleMenuKit
 
 class ViewController: UIViewController, MKHomeViewControllerDelegate {
    
-   var delegate: MKActionViewControllerDelegate?
+   weak var menuDelegate: MKActionViewControllerDelegate?
    
    override func viewDidLoad() {
       super.viewDidLoad()
@@ -32,7 +32,7 @@ class ViewController: UIViewController, MKHomeViewControllerDelegate {
    }
    
    @objc private func presentSideMenu() {
-      delegate?.toggleLeftPanel()
+      menuDelegate?.toggleLeftPanel()
    }
 }
 

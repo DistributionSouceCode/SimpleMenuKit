@@ -20,6 +20,23 @@ it, simply add the following line to your Podfile:
 pod 'SimpleMenuKit'
 ```
 
+## Usage
+- Step1 : Conform ViewController that is home view controller with protocol ```MKHomeViewControllerDelegate``` then u can implement menuDelegate like this ``` weak var menuDelegate: MKActionViewControllerDelegate?``` and menu action ``` menuDelegate?.toggleLeftPanel()```
+- Step2: Init your main view controller with left view controller and home view controller:
+```
+let menuSide = LeftTableViewController() // Create your left menu by your own
+let home = ViewController()
+
+let mainViewController = MKWrapperViewController({
+return menuSide
+}, mkHomeViewController: home)
+
+
+window?.rootViewController = mainViewController
+
+```
+
+
 ## Author
 
 seyhagithub, hiemseyha168@gmail.com

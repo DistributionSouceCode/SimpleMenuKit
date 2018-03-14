@@ -27,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          return menuSide
       }, mkHomeViewController: home)
       
+
       window?.rootViewController = mainViewController
      
       

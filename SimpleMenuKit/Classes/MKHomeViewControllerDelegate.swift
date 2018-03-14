@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol MKHomeViewControllerDelegate : class  {
-   var delegate: MKActionViewControllerDelegate? { get set }
+   var menuDelegate: MKActionViewControllerDelegate? { get set }
 }
