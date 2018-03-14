@@ -35,7 +35,8 @@ return menuSide
 window?.rootViewController = mainViewController
 
 ```
-### Note: This library is under development
+### Note
+This library is under development
 
 ## Author
 
