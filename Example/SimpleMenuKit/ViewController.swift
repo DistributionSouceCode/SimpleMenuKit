@@ -7,18 +7,32 @@
 //
 
 import UIKit
+import SimpleMenuKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MKHomeViewControllerDelegate {
+   
+   var delegate: MKActionViewControllerDelegate?
+   
+   override func viewDidLoad() {
+      super.viewDidLoad()
+      
+      view.backgroundColor = .red
+      
+     setupMenuButton()
+      
+   }
+   
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+   fileprivate func setupMenuButton() {
+      let button = UIButton(frame: CGRect(x: self.view.frame.width - 200, y: 100, width: 200, height: 200))
+      button.setTitle("Menu", for: .normal)
+      button.addTarget(self, action: #selector(self.presentSideMenu), for: .touchUpInside)
+      
+      view.addSubview(button)
+   }
+   
+   @objc private func presentSideMenu() {
+      delegate?.toggleLeftPanel()
+   }
 }
 

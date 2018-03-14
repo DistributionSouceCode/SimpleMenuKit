@@ -1,0 +1,6 @@
+framework module SimpleMenuKit {
+  umbrella header "SimpleMenuKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
