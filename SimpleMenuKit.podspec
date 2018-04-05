@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/DistributionSouceCode/SimpleMenuKit.git'
-  s.screenshots     = 'https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif',
+  s.screenshots     = 'https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'seyhagithub' => 'hiemseyha168@gmail.com' }
   s.source           = { :git => 'https://github.com/DistributionSouceCode/SimpleMenuKit.git', :tag => s.version.to_s }
