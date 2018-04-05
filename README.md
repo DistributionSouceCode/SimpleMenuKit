@@ -6,8 +6,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/SimpleMenuKit.svg?style=flat)](http://cocoapods.org/pods/SimpleMenuKit)
 
 ## Preview Samples
-<p align="center">
-<img src="https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif" width="350" align="left" />
+<p align="left">
+<img src="https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif" width="350" />
 </p>
 
 ## Example
