@@ -5,16 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/SimpleMenuKit.svg?style=flat)](http://cocoapods.org/pods/SimpleMenuKit)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleMenuKit.svg?style=flat)](http://cocoapods.org/pods/SimpleMenuKit)
 
+## Preview Samples
+<p align="center">
+<img src="https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif" width="350" align="left" />
+</p>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
-## ScreenShot
-<p align="center">
-<img src="https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif" width="350"/>
-</p>
 
 ## Installation
 
