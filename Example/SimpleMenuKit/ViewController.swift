@@ -17,7 +17,7 @@ class ViewController: UIViewController, MKHomeViewControllerDelegate {
       super.viewDidLoad()
       
       view.backgroundColor = .black
-      setupBackgroundImage(with: view, image: "frontbg", alpha: 0.7)
+      setupBackgroundImage(with: view, image: "frontbg", alpha: 0.5)
       setupMenuButton()
       
    }

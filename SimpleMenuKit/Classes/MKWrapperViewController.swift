@@ -30,7 +30,7 @@ public class MKWrapperViewController: UIViewController {
    
    var currentState:SlideOutState = .collapse {
       didSet {
-         let shouldShowShadow = (currentState != .collapse)
+         let _ = (currentState != .collapse)
       }
    }
    
