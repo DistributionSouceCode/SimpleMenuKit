@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		07251D122058FE3000853759 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07251D112058FE3000853759 /* LeftViewController.swift */; };
 		07543FEF2075BC2C0041CB42 /* MenuLeftDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07543FEE2075BC2C0041CB42 /* MenuLeftDataSource.swift */; };
-		07543FF22075C7340041CB42 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07543FF12075C7340041CB42 /* ProfileView.xib */; };
-		07543FF42075C74A0041CB42 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07543FF32075C74A0041CB42 /* ProfileView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -34,8 +32,6 @@
 		05075463AE160BBFB4CF693C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		07251D112058FE3000853759 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		07543FEE2075BC2C0041CB42 /* MenuLeftDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLeftDataSource.swift; sourceTree = "<group>"; };
-		07543FF12075C7340041CB42 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
-		07543FF32075C74A0041CB42 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		114740EAF8285E37E3F1E9F2 /* Pods_SimpleMenuKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMenuKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BC2F2C7C4F2AD2A40DB161 /* Pods_SimpleMenuKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMenuKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E17DCCE99739345ED7209E /* SimpleMenuKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleMenuKit.podspec; path = ../SimpleMenuKit.podspec; sourceTree = "<group>"; };
@@ -75,15 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07543FF02075C6E10041CB42 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				07543FF12075C7340041CB42 /* ProfileView.xib */,
-				07543FF32075C74A0041CB42 /* ProfileView.swift */,
-			);
-			name = Profile;
-			sourceTree = "<group>";
-		};
 		40EA90416A1649DA4FC10815 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +106,6 @@
 		607FACD21AFB9204008FA782 /* Example for SimpleMenuKit */ = {
 			isa = PBXGroup;
 			children = (
-				07543FF02075C6E10041CB42 /* Profile */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				07251D112058FE3000853759 /* LeftViewController.swift */,
@@ -267,7 +253,6 @@
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				07543FF22075C7340041CB42 /* ProfileView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +374,6 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				07251D122058FE3000853759 /* LeftViewController.swift in Sources */,
-				07543FF42075C74A0041CB42 /* ProfileView.swift in Sources */,
 				07543FEF2075BC2C0041CB42 /* MenuLeftDataSource.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
