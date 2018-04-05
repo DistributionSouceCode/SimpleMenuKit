@@ -31,7 +31,6 @@ public class MKWrapperViewController: UIViewController {
    var currentState:SlideOutState = .collapse {
       didSet {
          let shouldShowShadow = (currentState != .collapse)
-         shouldShowShadowCenterViewController(shouldShowShadow)
       }
    }
    
@@ -84,14 +83,6 @@ public class MKWrapperViewController: UIViewController {
 
       didMove(toParentViewController: self)
 
-   }
-
-   func shouldShowShadowCenterViewController(_ status: Bool) {
-      if status {
-         //         homeNavigationController.view.layer.shadowOpacity = 0.0 // 0.6
-      } else {
-         //         homeNavigationController.view.layer.shadowOpacity = 0.0
-      }
    }
 }
 
