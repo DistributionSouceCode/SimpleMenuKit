@@ -41,7 +41,7 @@ window?.rootViewController = mainViewController
 
 ```
 ### Note
-This library is under development
+This library is not flexible enough cause i build for programmatically code.
 
 ## Author
 

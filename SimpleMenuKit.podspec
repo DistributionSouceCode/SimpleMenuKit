@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleMenuKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'SimpleMenuKit that is easy slide menu for programmatically development.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/DistributionSouceCode/SimpleMenuKit.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif',
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'seyhagithub' => 'hiemseyha168@gmail.com' }
   s.source           = { :git => 'https://github.com/DistributionSouceCode/SimpleMenuKit.git', :tag => s.version.to_s }
