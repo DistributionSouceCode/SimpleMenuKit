@@ -11,6 +11,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## ScreenShot
+<p align="center">
+<img src="https://github.com/DistributionSouceCode/SimpleMenuKit/blob/master/Example/SimpleMenuKit/menukit.gif" width="350"/>
+</p>
+
 ## Installation
 
 SimpleMenuKit is available through [CocoaPods](http://cocoapods.org). To install
